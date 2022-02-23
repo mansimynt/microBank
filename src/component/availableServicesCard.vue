@@ -8,8 +8,7 @@
     
 </template>
 <script>
-//const URL = "http://localhost:3000/users";
-//const URL2 = "http://localhost:3000/allservices";
+
 export default {
   data() {
     return {
@@ -21,9 +20,7 @@ export default {
     };
   },
   created() {
-     this.userId=this.$store.state.userId;
-      console.log(this.userId);
-   
+     this.userId=this.$store.state.userId;  // assigning currently login user id
     this.getData();
   },
   methods: {
@@ -52,7 +49,6 @@ export default {
    
     this.availableServices=this.totalServices;//assigning total services to available services
    // console.info("availableservice before camparing",this.availableServices);
-   
     for(let i=0;i<this.availableServices.length;i++)
     {
         for(let j=0;j<this.subscribeServices.length;j++)
@@ -80,9 +76,6 @@ export default {
      div.appendChild(p);
      availableflex.appendChild(div);
     }
-
-
-
  });
 });//
 	} }

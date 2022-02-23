@@ -2,8 +2,7 @@
   <div id="app">
      
      <router-view></router-view>
-    <!-- <login-form></login-form>
-  <createaccount></createaccount> -->
+   
   
   
   </div> 

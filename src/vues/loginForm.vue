@@ -35,7 +35,6 @@
 import axious from "axios";
 import {eventBus} from '../main'
 import formDesign from '../component/formDesign.vue';
-//import ApiCalls from './apiCalls.vue';
 import store from '../store/store'
 
 export default {
