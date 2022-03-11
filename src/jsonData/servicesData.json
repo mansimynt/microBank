@@ -1,0 +1,79 @@
+
+{
+    "summaryData": [
+        {
+            "id": 1,
+            "label":"Account Number",
+            "value": "67238744"
+        },
+        {
+            "id": 2,
+            "label":"Income",
+            "value": "$20,00,000"
+        },
+        {
+            "id": 3,
+            "label":"Spends",
+            "value": "$11,00,000"
+        }
+    ],
+    "currentServices": [
+        {
+            "id": 1,
+            "value": "Current Account"
+        },
+        {
+            "id": 2,
+            "value": "Payroll"
+        },
+        {
+            "id": 3,
+            "value": "Payments"
+        }
+    ],
+    "availableServices": [
+        {
+            "id": 1,
+            "value": "Wallet"
+        },
+        {
+            "id": 2,
+            "value": "Investments"
+        },
+        {
+            "id": 3,
+            "value": "Tax Payment"
+        },
+        {
+            "id": 4,
+            "value": "Loans"
+        }
+    ],
+    "TransactionData":[
+        {"Transactionid":"2011002039111",
+        "Date":"22-09-2021",
+        "Amount":"1,780",
+        "status":"Approved"
+        },
+         {"Transactionid":"2011002039112",
+        "Date":"19-09-2021",
+        "Amount":"1,890",
+        "status":"Approved"
+        },
+         {"Transactionid":"2011002039113",
+        "Date":"20-08-2021",
+        "Amount":"5,550",
+        "status":"Rejected"
+        },
+         {"Transactionid":"2011002039114",
+        "Date":"12-07-2021",
+        "Amount":"2,590",
+        "status":"Approved"
+        },
+         {"Transactionid":"2011002039113",
+        "Date":"08-07-2021",
+        "Amount":"2,800",
+        "status":"Rejected"
+        }
+    ]
+}

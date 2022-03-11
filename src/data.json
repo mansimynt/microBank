@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "FullName": "Mansi More",
+      "email": "mansimore57@gmail.com",
+      "password": "Mansi@123",
+      "services": [
+        {
+          "id": 1,
+          "servicename": "Current Account",
+          "rating": 2
+        },
+        {
+          "id": 2,
+          "servicename": "Payroll",
+          "rating": 3
+        },
+        {
+          "id": 3,
+          "servicename": "Payments",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "FullName": "Komal Pasi",
+      "email": "komalpasi@gmail.com",
+      "password": "Komal@123",
+      "services": [
+        {
+          "id": 1,
+          "servicename": "Current Account",
+          "rating": null
+        },
+        {
+          "id": 2,
+          "servicename": "Payroll",
+          "rating": null
+        },
+        {
+          "id": 3,
+          "servicename": "Payments",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "FullName": "Ram ",
+      "email": "ram@gmail.com",
+      "services": [
+        {
+          "id": 1,
+          "servicename": "Current Account",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "FullName": "komal",
+      "dateOfIncorporation": "2022-02-11",
+      "email": "komal@pasi",
+      "password": "Komal@123",
+      "confirmPassword": "Komal@123",
+      "id": 3
+    }
+  ],
+  "allservices": [
+    {
+      "id": 1,
+      "service": "Current Account"
+    },
+    {
+      "id": 2,
+      "service": "Payroll"
+    },
+    {
+      "id": 3,
+      "service": "Payments"
+    },
+    {
+      "id": 4,
+      "service": "Wallet"
+    },
+    {
+      "id": 5,
+      "service": "Investments"
+    },
+    {
+      "id": 6,
+      "service": "Taxpayment"
+    },
+    {
+      "id": 7,
+      "service": "Loans"
+    }
+  ]
+}
